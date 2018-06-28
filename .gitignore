@@ -3,3 +3,7 @@ target/*
 .idea
 *.class
 docs/DocSmithConfig.java
+.settings/
+target/
+.classpath
+.project
