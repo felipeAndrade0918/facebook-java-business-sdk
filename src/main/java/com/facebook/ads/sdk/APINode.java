@@ -92,7 +92,7 @@ public class APINode implements APIResponse {
     return this;
   }
 
-  public static APINodeList<APINode> parseResponse(String json, APIContext context, APIRequest<APINode> request) throws MalformedResponseException{
+  public static APINodeList parseResponse(String json, APIContext context, APIRequest<APINode> request) throws MalformedResponseException{
     APINodeList<APINode> nodes = new APINodeList<APINode>(request, json);
     JsonArray arr;
     JsonObject obj;
